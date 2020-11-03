@@ -1,0 +1,40 @@
+const products =[
+    {
+        _id:"1",
+        name: 'IPhone',
+        image: '/images/Iphone.png',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        brand:'Apple',
+        category: 'electronics',
+        price: 800.00, 
+        countInStock:3,
+        rating: 4.8,
+        numReviews:4,
+    },
+    {
+        _id:"2",
+        name: 'IPhone Charger',
+        image: '/images/charger.jpg',
+        description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+        brand:'Apple',
+        category: 'electronics',
+        price: 40.00, 
+        countInStock:7,
+        rating: 4.5,
+        numReviews:2,
+    },
+    {
+        _id:"3",
+        name: 'IPhone Case',
+        image: '/images/Case.png',
+        description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. ',
+        brand:'KewlCase',
+        category: 'electronics',
+        price: 25.00, 
+        countInStock:5,
+        rating: 4,
+        numReviews:8,
+    },
+]
+
+module.exports = products;
